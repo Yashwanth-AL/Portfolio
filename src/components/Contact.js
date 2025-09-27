@@ -66,41 +66,37 @@ const Contact = () => {
               </div>
 
               <div className="space-y-6">
-                <motion.div
+                <motion.a
+                  href={`mailto:${personalInfo.email}`}
                   whileHover={{ x: 10 }}
-                  className="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg"
+                  className="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 cursor-pointer transition-all duration-200"
                 >
                   <div className="p-3 bg-blue-100 dark:bg-blue-900/30 rounded-lg">
                     <Mail size={24} className="text-blue-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Email</h4>
-                    <a 
-                      href={`mailto:${personalInfo.email}`}
-                      className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
-                    >
+                    <span className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
                       {personalInfo.email}
-                    </a>
+                    </span>
                   </div>
-                </motion.div>
+                </motion.a>
 
-                <motion.div
+                <motion.a
+                  href={`tel:${personalInfo.phone}`}
                   whileHover={{ x: 10 }}
-                  className="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg"
+                  className="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 cursor-pointer transition-all duration-200"
                 >
                   <div className="p-3 bg-green-100 dark:bg-green-900/30 rounded-lg">
                     <Phone size={24} className="text-green-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Phone</h4>
-                    <a 
-                      href={`tel:${personalInfo.phone}`}
-                      className="text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors duration-200"
-                    >
+                    <span className="text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors duration-200">
                       {personalInfo.phone}
-                    </a>
+                    </span>
                   </div>
-                </motion.div>
+                </motion.a>
               </div>
             </motion.div>
 

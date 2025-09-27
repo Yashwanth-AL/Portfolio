@@ -53,7 +53,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50/50 via-white to-blue-50/30 dark:from-gray-900 dark:via-gray-900 dark:to-blue-900/20">
+    <section id="home" className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50/50 via-white to-blue-50/30 dark:from-gray-900 dark:via-gray-900 dark:to-blue-900/20">
       {/* Subtle Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-200/20 dark:bg-blue-800/10 rounded-full blur-3xl"></div>
@@ -65,7 +65,7 @@ const Hero = () => {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center min-h-screen py-20"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[90vh] py-16"
         >
           {/* Left Side - Introduction Text */}
           <motion.div
@@ -75,12 +75,12 @@ const Hero = () => {
             {/* Name and Title */}
             <div className="space-y-6">
               <motion.h1 
-                className="text-4xl md:text-6xl lg:text-7xl font-bold"
+                className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
               >
-                <span className="block text-gray-800 dark:text-white">
+                <span className="block text-gray-800 dark:text-white mb-2">
                   Hi, I&apos;m
                 </span>
                 <span className="block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 bg-clip-text text-transparent">
@@ -89,7 +89,7 @@ const Hero = () => {
               </motion.h1>
               
               <motion.p 
-                className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-xl lg:max-w-none"
+                className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-xl lg:max-w-2xl mt-6"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.8 }}

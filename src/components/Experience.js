@@ -58,7 +58,7 @@ const Experience = () => {
               <div className="flex flex-col md:flex-row items-start md:items-center space-y-6 md:space-y-0 md:space-x-8">
                 {/* Company Logo */}
                 <div className="flex-shrink-0">
-                  <div className="w-28 h-28 relative rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300 overflow-hidden border-2 border-blue-100 dark:border-blue-900 group-hover:border-blue-300 dark:group-hover:border-blue-700 bg-white dark:bg-gray-800">
+                  <div className="w-16 h-16 sm:w-24 sm:h-24 lg:w-24 lg:h-24 relative rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300 overflow-hidden border-2 border-blue-100 dark:border-blue-900 group-hover:border-blue-300 dark:group-hover:border-blue-700 bg-white dark:bg-gray-800">
                     <img 
                       src={item.logo} 
                       alt={item.company}
