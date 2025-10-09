@@ -197,18 +197,18 @@ const Hero = () => {
                 </motion.div>
 
                 {/* Decorative Ring */}
-                <motion.div
+                {/* <motion.div
                   animate={{ rotate: 360 }}
                   transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
                   className="absolute -inset-4 rounded-full border-2 border-dashed border-blue-400/50 dark:border-blue-500/30"
-                />
+                /> */}
 
                 {/* Glowing Background */}
                 <div className="absolute -inset-8 bg-gradient-to-r from-blue-400/20 to-blue-600/20 rounded-full blur-2xl -z-10"></div>
               </div>
 
               {/* Floating Elements */}
-              <motion.div
+              {/* <motion.div
                 animate={{ 
                   rotate: [0, 10, -10, 0],
                   scale: [1, 1.1, 1]
@@ -221,9 +221,9 @@ const Hero = () => {
                 className="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-500 rounded-lg flex items-center justify-center shadow-lg"
               >
                 <Code size={24} className="text-white" />
-              </motion.div>
+              </motion.div> */}
 
-              <motion.div
+              {/* <motion.div
                 animate={{ 
                   rotate: [0, -15, 15, 0],
                   y: [0, -5, 5, 0]
@@ -237,13 +237,13 @@ const Hero = () => {
                 className="absolute -bottom-2 -left-6 w-10 h-10 bg-gradient-to-r from-blue-300 to-blue-400 rounded-lg flex items-center justify-center shadow-lg"
               >
                 <Github size={20} className="text-white" />
-              </motion.div>
+              </motion.div> */}
             </motion.div>
           </motion.div>
         </motion.div>
 
         {/* Scroll Indicator */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2 }}
@@ -260,7 +260,7 @@ const Hero = () => {
               className="w-1 h-3 bg-blue-400/60 rounded-full mt-2"
             />
           </motion.div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
