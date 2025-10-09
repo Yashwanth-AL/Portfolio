@@ -28,7 +28,7 @@ export const education = [
     institution: "JSS Science and Technology University (SJCE)",
     degree: "B.E. Computer Science Engineering",
     duration: "2022 - 2026",
-    grade: "9.47 CGPA",
+    grade: "9.52 CGPA",
     logo: "/assets/jssstu.png",
     status: "ongoing"
   },
