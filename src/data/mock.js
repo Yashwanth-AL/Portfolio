@@ -72,13 +72,13 @@ export const experience = [
 export const projects = [
   {
     id: 1,
-    title: "Blog Website",
-    description: "A comprehensive MERN Stack blog platform where admin can create and manage blogs while users can read posts. Features include database management, authentication, and full CRUD operations.",
+    title: "Inkwell",
+    description: "A MERN Stack blog platform where anyone can read blogs, while authenticated users can create, edit, and manage their posts. Includes secure authentication, CRUD operations, and a responsive design.",
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
+    image: "/assets/inkwell.png",
     github: "https://github.com/Yashwanth-AL/Blog-App",
-    demo: "#",
-    features: ["User Authentication", "Admin Dashboard", "CRUD Operations", "Responsive Design"]
+    demo: "https://inkwell-yash.vercel.app/",
+    features: ["Public Blog Access", "User Authentication","CRUD Operations", "Responsive Design"]
   },
   {
     id: 2,
