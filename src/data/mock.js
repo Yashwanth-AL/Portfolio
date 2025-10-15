@@ -142,21 +142,29 @@ export const achievements = [
     date: "2024",
     certificate: "/assets/certificates/JAVA_AbdulBari.jpg",
     organization: "Udemy (Instructor: Abdul Bari)"
-  },
+  }, 
   {
     id: 5,
+    title: "The Complete Full-Stack Web Development Bootcamp",
+    description: "Completed an extensive course covering full-stack web development with hands-on projects, including frontend, backend, databases, and deployment.",
+    date: "2025",
+    certificate: "/assets/certificates/Web_dev.jpg",
+    organization: "Udemy (Instructor: Dr. Angela Yu)"
+  },
+  {
+    id: 6,
+    title: "Oracle Cloud Infrastructure AI Foundations Associate",
+    description: "Earned certification from Oracle, learning AI fundamentals and their integration with Oracle Cloud Infrastructure (OCI).",
+    date: "2025",
+    certificate: "/assets/certificates/OCI_Foundations_Associate.jpg",
+    organization: "Oracle University"
+  },
+  {
+    id: 7,
     title: "Problem Solving Badge",
     description: "Achieved proficiency in data structures and algorithms through consistent practice",
     date: "2025",
     certificate: "/assets/certificates/badges.png",
     organization: "LeetCode"
   },
-  {
-    id: 6,
-    title: "The Complete Full-Stack Web Development Bootcamp",
-    description: "Completed an extensive course covering full-stack web development with hands-on projects, including frontend, backend, databases, and deployment.",
-    date: "2025",
-    certificate: "/assets/certificates/Web_dev.jpg",
-    organization: "Udemy (Instructor: Dr. Angela Yu)"
-  }
 ];
